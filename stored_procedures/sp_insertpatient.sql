@@ -10,14 +10,14 @@ INSERT INTO [dbo].[tbl_patients]
            ([identitynumber]
            ,[name]
            ,[surname]
-		   ,[gender]
+           ,[gender]
            ,[birthdate]
            ,[adressid])
      VALUES
            (@patientidno
            ,@name
-		   ,@surname
-		   ,@gender
-		   ,@birthdate
-		   ,@adressid)
+	   ,@surname
+           ,@gender
+	   ,@birthdate
+           ,@adressid)
 end
