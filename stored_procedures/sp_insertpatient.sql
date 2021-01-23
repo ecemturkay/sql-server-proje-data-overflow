@@ -1,4 +1,4 @@
-create procedure sp_insertoperation
+create procedure sp_insertpatient
 @patientidno nvarchar(11),
 @name nvarchar(30), 
 @surname nvarchar(30),
